@@ -123,14 +123,6 @@ namespace DS9208YY
         /// <param name="e"></param>
         private void buttonX1_Click(object sender, EventArgs e)
         {
-            //string qrCode = "";
-            //for (int j = 0; j < dataGridViewX1.Rows.Count; j++)
-            //{
-            //    qrCode = dataGridViewX1.Rows[j].Cells[1].Value.ToString();
-            //    bcc.CreateQuickMark(pictureBox1, qrCode);
-            //    Image img = pictureBox1.Image;
-            //    img.Save("d:/temp/" + textBoxX2.Text + (j + 1).ToString().PadLeft(5,'0') + ".jpg");
-            //}
             Ray.Framework.Converter.DataTable2Excel.DataToExcel(dt);
         }
 
